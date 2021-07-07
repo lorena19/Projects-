@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+#container{
+    height: 1000px;
+    width: 975px;
+    margin: 0 auto;
+}
+
+#header{
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:	#1a1a1a;
+}
+
+#header img{
+    padding-left: 20px;
+    min-height: 60px;
+    width: 220px;
+}
+
+#header p{
+    padding: 0 40px 0 0; 
+}
+
+#nav{
+    min-height: 30px;
+    background-image: radial-gradient(#3f3f3f,rgb(43, 39, 39));
+    display: flex;
+    align-items: center;
+}
+
+#nav ul li{
+    display: flex;
+    color: #93989d;
+    border-right: 1px solid #93989d;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+#main{
+    min-height: 300px;
+}
+
+#sleepimage img{
+    min-width: 900px;
+    
+}
+
+#title-box{
+    height: 140px;
+    padding: 10px;
+    background-color: rgb(26, 22, 22);
+    display: flex;
+    flex-direction: row wrap;
+}
+
+
+#title-box.icons{
+    display: flex;
+    padding: 5px;
+}
+
+#title-box.icons img{
+    margin-right: 5px;
+    display: flex;
+    min-width: 20px;
+    height: 20px;
+}
+
+
+#title-box p{
+        color: white;
+        align-items:center;
+        text-align: center; 
+        margin-right: 10px;
+        font-size: 10;
+        padding: 8px 2px 0px;     
+}
+
+.orange{
+    color: 	#b05c24;
+    font-style: bold;
+}
+
+#ad{
+    min-height: 120px;
+    background-color:	#090909;
+    color: white;
+    text-justify: distribute;
+}
+
+#ad h2{
+    padding: 10px;
+}
+
+#ad p{
+    font-size: 15px;
+    text-align: center;
+}
+
+form{
+    text-align: right;
+}
+
+input{
+    color: white;
+    background-color:#f29550;
+    width: 85px;
+    text-align: center;
+    height: 35px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+
+#profolio{
+    min-width:970px;
+    height: 285px;
+    display: flex;
+    flex-direction: row wrap;
+    background-color: #1a1a1a;
+}
+
+.profolio-feature{
+    padding: 5px;
+    margin-top: 20px;
+    padding: 8px;
+    align-content: space-between;
+}
+
+.profolio-feature p{
+    margin: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.pro img{
+    border: 5px solid #4a4948;
+}
+
+#head{
+    color:white;
+    background-color: #1a1a1a;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head p{
+    margin: 5px;
+}
+
+#head h2{
+    margin: 5px;
+}
